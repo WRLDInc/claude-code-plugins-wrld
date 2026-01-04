@@ -1,6 +1,13 @@
 ---
 name: claude-reflect
-description: Self-learning system that captures corrections during sessions and reminds users to run /reflect to update CLAUDE.md. Use when discussing learnings, corrections, or when the user mentions remembering something for future sessions.
+description: |
+  Self-learning system that captures corrections during sessions and syncs them to CLAUDE.md.
+  Use when discussing learnings, corrections, or when the user mentions remembering something.
+  Trigger with phrases like "remember this", "don't forget", "use X not Y", or "actually...".
+allowed-tools: Read, Write, Edit, Bash(jq:*), Bash(cat:*)
+version: 1.4.1
+license: MIT
+author: Bayram Annakov <bayram.annakov@gmail.com>
 ---
 
 # Claude Reflect - Self-Learning System
