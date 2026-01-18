@@ -12,7 +12,7 @@ License: MIT
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional
 from dataclasses import dataclass
 import statistics
 
@@ -101,7 +101,7 @@ class PatternAnalyzer:
                 with open(self.history_file) as f:
                     return json.load(f)
         except (json.JSONDecodeError, IOError):
-            pass
+            pass  # History file corrupted or missing - start with empty history
         return []
 
     def _save_history(self, entry: Dict[str, Any]) -> None:
@@ -115,7 +115,7 @@ class PatternAnalyzer:
             with open(self.history_file, "w") as f:
                 json.dump(self._history, f)
         except IOError:
-            pass
+            pass  # Non-critical - history save failed, will try again on next record
 
     def record_gas_data(self, gas_gwei: float) -> None:
         """Record current gas data for pattern analysis.

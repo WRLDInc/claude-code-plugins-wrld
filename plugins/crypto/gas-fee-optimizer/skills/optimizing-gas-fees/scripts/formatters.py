@@ -10,8 +10,7 @@ License: MIT
 """
 
 import json
-from datetime import datetime
-from typing import Dict, Any, List
+from typing import Any, List
 
 
 def format_gwei(value: float) -> str:

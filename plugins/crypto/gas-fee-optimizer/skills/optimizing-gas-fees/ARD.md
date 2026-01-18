@@ -67,27 +67,33 @@ skills/optimizing-gas-fees/
 ### gas_fetcher.py
 ```python
 class GasFetcher:
-    def get_current_gas(chain) -> GasData
-    def get_gas_history(chain, blocks) -> List[GasData]
-    def get_base_fee_trend() -> BaseFeeInfo
+    def __init__(self, chain: str = "ethereum", rpc_url: str = None, api_key: str = None, verbose: bool = False)
+    def get_current_gas(self) -> GasData
+    def get_base_fee_history(self, blocks: int = 100) -> List[BaseFeeHistory]
+    def get_gas_for_chain(self, chain: str) -> GasData  # For cross-chain comparison
 ```
 
 ### pattern_analyzer.py
 ```python
 class PatternAnalyzer:
-    def analyze_hourly_pattern(history) -> HourlyPattern
-    def analyze_daily_pattern(history) -> DailyPattern
-    def find_optimal_window() -> TimeWindow
-    def predict_gas(time) -> GasPrediction
+    def __init__(self, history_file: str = None, verbose: bool = False)
+    def record_gas_data(self, gas_gwei: float) -> None
+    def analyze_hourly_pattern(self) -> List[HourlyPattern]
+    def analyze_daily_pattern(self) -> List[DailyPattern]
+    def find_optimal_window(self, current_gas_gwei: float = None) -> TimeWindow
+    def predict_gas(self, target_time: datetime) -> GasPrediction
 ```
 
 ### cost_estimator.py
 ```python
 class CostEstimator:
-    def estimate_transfer(gas_price) -> Cost
-    def estimate_swap(gas_price, dex) -> Cost
-    def estimate_nft_mint(gas_price) -> Cost
-    def estimate_custom(gas_price, gas_limit) -> Cost
+    def __init__(self, native_symbol: str = "ETH", verbose: bool = False)
+    def estimate_cost(self, operation: str, gas_price_gwei: float, tier: str = "standard", custom_gas_limit: int = None) -> CostEstimate
+    def estimate_all_tiers(self, operation: str, gas_slow: float, gas_standard: float, gas_fast: float, gas_instant: float, custom_gas_limit: int = None) -> MultiTierEstimate
+    def estimate_transfer(self, gas_price_gwei: float) -> CostEstimate
+    def estimate_swap(self, gas_price_gwei: float, dex: str = "uniswap_v2") -> CostEstimate
+    def estimate_nft_mint(self, gas_price_gwei: float) -> CostEstimate
+    def estimate_custom(self, gas_price_gwei: float, gas_limit: int) -> CostEstimate
 ```
 
 ## Gas Price Tiers

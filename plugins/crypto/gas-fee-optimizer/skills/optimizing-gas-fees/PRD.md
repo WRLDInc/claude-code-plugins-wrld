@@ -25,6 +25,7 @@ Users often overpay for gas or have transactions stuck due to poor fee estimatio
 
 2. **As an NFT collector**, I want gas alerts when fees drop below threshold, so I can mint at low cost.
    - Acceptance: Configurable threshold alerts, historical low comparisons
+   - *Note: Alerting feature planned for v2.0. Current version supports on-demand price checks.*
 
 3. **As a trader**, I want accurate gas estimates for different confirmation speeds, so I can choose cost vs speed.
    - Acceptance: Shows slow/standard/fast/instant with estimated times and costs
@@ -38,7 +39,7 @@ Users often overpay for gas or have transactions stuck due to poor fee estimatio
 - **REQ-2**: Analyze historical gas patterns (hourly, daily, weekly)
 - **REQ-3**: Recommend optimal transaction timing
 - **REQ-4**: Estimate gas cost for standard operations (transfer, swap, mint)
-- **REQ-5**: Alert when gas drops below user-defined threshold
+- **REQ-5**: Alert when gas drops below user-defined threshold *(planned for v2.0)*
 - **REQ-6**: Support multiple chains (Ethereum, Polygon, Arbitrum, etc.)
 - **REQ-7**: Calculate USD cost of transactions
 

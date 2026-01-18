@@ -11,10 +11,8 @@ License: MIT
 """
 
 import argparse
-import json
 import sys
 from datetime import datetime, timedelta
-from typing import Optional
 
 from gas_fetcher import GasFetcher, CHAIN_CONFIG
 from pattern_analyzer import PatternAnalyzer
@@ -191,7 +189,7 @@ def cmd_operations(args):
 
 def cmd_compare(args):
     """Compare gas across chains."""
-    chains = args.chains.split(",") if args.chains else ["ethereum", "polygon", "arbitrum", "optimism", "base"]
+    chains = args.chains.split(",") if args.chains else list(CHAIN_CONFIG.keys())
 
     print("\nMULTI-CHAIN GAS COMPARISON")
     print("=" * 70)

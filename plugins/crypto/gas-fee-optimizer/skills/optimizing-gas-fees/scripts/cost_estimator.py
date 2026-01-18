@@ -9,9 +9,8 @@ Version: 1.0.0
 License: MIT
 """
 
-import json
 import time
-from typing import Dict, Any, Optional
+from typing import Dict
 from dataclasses import dataclass
 
 try:

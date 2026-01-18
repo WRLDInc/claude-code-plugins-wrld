@@ -13,7 +13,7 @@ import json
 import os
 import time
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List
 from dataclasses import dataclass
 
 try:
@@ -115,7 +115,7 @@ class GasFetcher:
                 with open(self.cache_file) as f:
                     return json.load(f)
         except (json.JSONDecodeError, IOError):
-            pass
+            pass  # Cache file corrupted or missing - start fresh
         return {}
 
     def _save_cache(self) -> None:
@@ -124,7 +124,7 @@ class GasFetcher:
             with open(self.cache_file, "w") as f:
                 json.dump(self._cache, f)
         except IOError:
-            pass
+            pass  # Non-critical - cache save failed, will refetch next time
 
     def _is_cache_valid(self, key: str) -> bool:
         """Check if cached data is still valid."""
