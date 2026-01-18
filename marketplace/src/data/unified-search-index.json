@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-01-13T06:41:56.751Z",
+    "generated": "2026-01-18T07:12:19.516Z",
     "generator": "scripts/generate-unified-search.mjs"
   },
   "stats": {
@@ -6377,7 +6377,7 @@
       "id": "aggregating-crypto-news",
       "slug": "aggregating-crypto-news",
       "name": "aggregating-crypto-news",
-      "description": "Execute aggregate breaking crypto news, announcements, and market-moving events in real-time. Use when staying updated on crypto market events. Trigger with phrases like \"get crypto news\", \"check latest announcements\", or \"scan for updates\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:news-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Aggregate breaking cryptocurrency news from 50+ sources including CoinDesk, CoinTelegraph, The Block, and Decrypt. Use when needing to monitor crypto market news, track announcements, or find coin-specific updates. Trigger with phrases like \"get crypto news\", \"latest Bitcoin headlines\", \"DeFi announcements\", \"scan for breaking news\", or \"check crypto updates\". allowed-tools: Read, Bash(crypto:news-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -6385,7 +6385,7 @@
         "name": "crypto-news-aggregator",
         "category": "crypto"
       },
-      "searchText": "aggregating-crypto-news execute aggregate breaking crypto news, announcements, and market-moving events in real-time. use when staying updated on crypto market events. trigger with phrases like \"get crypto news\", \"check latest announcements\", or \"scan for updates\". allowed-tools: read, write, edit, grep, glob, bash(crypto:news-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "aggregating-crypto-news aggregate breaking cryptocurrency news from 50+ sources including coindesk, cointelegraph, the block, and decrypt. use when needing to monitor crypto market news, track announcements, or find coin-specific updates. trigger with phrases like \"get crypto news\", \"latest bitcoin headlines\", \"defi announcements\", \"scan for breaking news\", or \"check crypto updates\". allowed-tools: read, bash(crypto:news-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -6468,7 +6468,7 @@
       "id": "analyzing-liquidity-pools",
       "slug": "analyzing-liquidity-pools",
       "name": "analyzing-liquidity-pools",
-      "description": "Analyze liquidity pool metrics including TVL, volume, fees, and impermanent loss. Use when analyzing DEX liquidity pools. Trigger with phrases like \"analyze pool\", \"check TVL\", or \"calculate impermanent loss\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:liquidity-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Analyze DEX liquidity pools for TVL, volume, fees, impermanent loss, and LP profitability. Use when analyzing liquidity pools, calculating impermanent loss, or comparing DEX pools. Trigger with phrases like \"analyze liquidity pool\", \"calculate impermanent loss\", \"LP returns\", \"pool TVL\", \"DEX pool metrics\", or \"compare pools\". allowed-tools: Read, Write, Bash(crypto:liquidity-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -6476,7 +6476,7 @@
         "name": "liquidity-pool-analyzer",
         "category": "crypto"
       },
-      "searchText": "analyzing-liquidity-pools analyze liquidity pool metrics including tvl, volume, fees, and impermanent loss. use when analyzing dex liquidity pools. trigger with phrases like \"analyze pool\", \"check tvl\", or \"calculate impermanent loss\". allowed-tools: read, write, edit, grep, glob, bash(crypto:liquidity-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "analyzing-liquidity-pools analyze dex liquidity pools for tvl, volume, fees, impermanent loss, and lp profitability. use when analyzing liquidity pools, calculating impermanent loss, or comparing dex pools. trigger with phrases like \"analyze liquidity pool\", \"calculate impermanent loss\", \"lp returns\", \"pool tvl\", \"dex pool metrics\", or \"compare pools\". allowed-tools: read, write, bash(crypto:liquidity-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -6505,7 +6505,7 @@
       "id": "analyzing-market-sentiment",
       "slug": "analyzing-market-sentiment",
       "name": "analyzing-market-sentiment",
-      "description": "Analyze crypto market sentiment from social media, news, and on-chain metrics. Use when gauging market sentiment and social trends. Trigger with phrases like \"analyze sentiment\", \"check market mood\", or \"gauge social trends\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:sentiment-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Analyze cryptocurrency market sentiment using Fear & Greed Index, news analysis, and market momentum. Use when gauging overall market mood, checking if markets are fearful or greedy, or analyzing sentiment for specific coins. Trigger with phrases like \"analyze crypto sentiment\", \"check market mood\", \"is the market fearful\", \"sentiment for Bitcoin\", or \"Fear and Greed index\". allowed-tools: Read, Bash(crypto:sentiment-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -6513,14 +6513,14 @@
         "name": "market-sentiment-analyzer",
         "category": "crypto"
       },
-      "searchText": "analyzing-market-sentiment analyze crypto market sentiment from social media, news, and on-chain metrics. use when gauging market sentiment and social trends. trigger with phrases like \"analyze sentiment\", \"check market mood\", or \"gauge social trends\". allowed-tools: read, write, edit, grep, glob, bash(crypto:sentiment-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "analyzing-market-sentiment analyze cryptocurrency market sentiment using fear & greed index, news analysis, and market momentum. use when gauging overall market mood, checking if markets are fearful or greedy, or analyzing sentiment for specific coins. trigger with phrases like \"analyze crypto sentiment\", \"check market mood\", \"is the market fearful\", \"sentiment for bitcoin\", or \"fear and greed index\". allowed-tools: read, bash(crypto:sentiment-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
       "id": "analyzing-mempool",
       "slug": "analyzing-mempool",
       "name": "analyzing-mempool",
-      "description": "Monitor blockchain mempools for pending transactions, front-running, and MEV opportunities. Use when monitoring pending blockchain transactions. Trigger with phrases like \"check mempool\", \"scan pending txs\", or \"find MEV\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:mempool-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Monitor blockchain mempools for pending transactions, gas analysis, and MEV opportunities. Use when analyzing pending transactions, optimizing gas prices, or researching MEV. Trigger with phrases like \"check mempool\", \"scan pending txs\", \"find MEV\", \"gas price analysis\", or \"pending swaps\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python*mempool*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -6528,7 +6528,7 @@
         "name": "mempool-analyzer",
         "category": "crypto"
       },
-      "searchText": "analyzing-mempool monitor blockchain mempools for pending transactions, front-running, and mev opportunities. use when monitoring pending blockchain transactions. trigger with phrases like \"check mempool\", \"scan pending txs\", or \"find mev\". allowed-tools: read, write, edit, grep, glob, bash(crypto:mempool-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "analyzing-mempool monitor blockchain mempools for pending transactions, gas analysis, and mev opportunities. use when analyzing pending transactions, optimizing gas prices, or researching mev. trigger with phrases like \"check mempool\", \"scan pending txs\", \"find mev\", \"gas price analysis\", or \"pending swaps\". allowed-tools: read, write, edit, grep, glob, bash(python*mempool*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -6557,7 +6557,7 @@
       "id": "analyzing-nft-rarity",
       "slug": "analyzing-nft-rarity",
       "name": "analyzing-nft-rarity",
-      "description": "Execute calculate NFT rarity scores and floor prices across collections and marketplaces. Use when analyzing NFT collections and rarity. Trigger with phrases like \"check NFT rarity\", \"analyze collection\", or \"calculate floor price\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:nft-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Calculate NFT rarity scores and rank tokens by trait uniqueness. Use when analyzing NFT collections, checking token rarity, or comparing NFTs. Trigger with phrases like \"check NFT rarity\", \"analyze collection\", \"rank tokens\", \"compare NFTs\". allowed-tools: Read, Bash(python3 *) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -6565,7 +6565,7 @@
         "name": "nft-rarity-analyzer",
         "category": "crypto"
       },
-      "searchText": "analyzing-nft-rarity execute calculate nft rarity scores and floor prices across collections and marketplaces. use when analyzing nft collections and rarity. trigger with phrases like \"check nft rarity\", \"analyze collection\", or \"calculate floor price\". allowed-tools: read, write, edit, grep, glob, bash(crypto:nft-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "analyzing-nft-rarity calculate nft rarity scores and rank tokens by trait uniqueness. use when analyzing nft collections, checking token rarity, or comparing nfts. trigger with phrases like \"check nft rarity\", \"analyze collection\", \"rank tokens\", \"compare nfts\". allowed-tools: read, bash(python3 *) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -7127,7 +7127,7 @@
       "id": "auditing-wallet-security",
       "slug": "auditing-wallet-security",
       "name": "auditing-wallet-security",
-      "description": "Execute review crypto wallet security including private key management and transaction signing. Use when auditing wallet security practices. Trigger with phrases like \"audit wallet\", \"check security\", or \"verify signatures\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:wallet-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Audit wallet security by analyzing token approvals, permissions, and transaction patterns. Use when checking wallet security, reviewing approvals, or assessing risk exposure. Trigger with phrases like \"audit wallet\", \"check approvals\", \"security scan\", or \"revoke tokens\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:wallet-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -7135,7 +7135,7 @@
         "name": "wallet-security-auditor",
         "category": "crypto"
       },
-      "searchText": "auditing-wallet-security execute review crypto wallet security including private key management and transaction signing. use when auditing wallet security practices. trigger with phrases like \"audit wallet\", \"check security\", or \"verify signatures\". allowed-tools: read, write, edit, grep, glob, bash(crypto:wallet-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "auditing-wallet-security audit wallet security by analyzing token approvals, permissions, and transaction patterns. use when checking wallet security, reviewing approvals, or assessing risk exposure. trigger with phrases like \"audit wallet\", \"check approvals\", \"security scan\", or \"revoke tokens\". allowed-tools: read, write, edit, grep, glob, bash(crypto:wallet-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -7172,7 +7172,7 @@
       "id": "backtesting-trading-strategies",
       "slug": "backtesting-trading-strategies",
       "name": "backtesting-trading-strategies",
-      "description": "Test backtest crypto trading strategies against historical data with performance metrics. Use when validating trading strategies with historical data. Trigger with phrases like \"backtest strategy\", \"test trading signals\", or \"validate approach\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:backtest-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Backtest crypto and traditional trading strategies against historical data. Calculates performance metrics (Sharpe, Sortino, max drawdown), generates equity curves, and optimizes strategy parameters. Use when user wants to test a trading strategy, validate signals, or compare approaches. Trigger with phrases like \"backtest strategy\", \"test trading strategy\", \"historical performance\", \"simulate trades\", \"optimize parameters\", or \"validate signals\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -7180,7 +7180,7 @@
         "name": "trading-strategy-backtester",
         "category": "crypto"
       },
-      "searchText": "backtesting-trading-strategies test backtest crypto trading strategies against historical data with performance metrics. use when validating trading strategies with historical data. trigger with phrases like \"backtest strategy\", \"test trading signals\", or \"validate approach\". allowed-tools: read, write, edit, grep, glob, bash(crypto:backtest-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "backtesting-trading-strategies backtest crypto and traditional trading strategies against historical data. calculates performance metrics (sharpe, sortino, max drawdown), generates equity curves, and optimizes strategy parameters. use when user wants to test a trading strategy, validate signals, or compare approaches. trigger with phrases like \"backtest strategy\", \"test trading strategy\", \"historical performance\", \"simulate trades\", \"optimize parameters\", or \"validate signals\". allowed-tools: read, write, edit, grep, glob, bash(python:*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -7352,7 +7352,7 @@
       "id": "calculating-crypto-taxes",
       "slug": "calculating-crypto-taxes",
       "name": "calculating-crypto-taxes",
-      "description": "Execute calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules. Use when calculating crypto tax obligations. Trigger with phrases like \"calculate crypto taxes\", \"compute tax liability\", or \"generate tax report\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:tax-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Calculate cryptocurrency tax obligations with cost basis tracking, capital gains computation, and Form 8949 generation. Use when calculating crypto taxes, generating tax reports, comparing cost basis methods, or identifying taxable events. Trigger with phrases like \"calculate crypto taxes\", \"generate tax report\", \"cost basis FIFO\", \"capital gains\", \"Form 8949\", or \"crypto taxable events\". allowed-tools: Read, Write, Bash(crypto:tax-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -7360,7 +7360,7 @@
         "name": "crypto-tax-calculator",
         "category": "crypto"
       },
-      "searchText": "calculating-crypto-taxes execute calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules. use when calculating crypto tax obligations. trigger with phrases like \"calculate crypto taxes\", \"compute tax liability\", or \"generate tax report\". allowed-tools: read, write, edit, grep, glob, bash(crypto:tax-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "calculating-crypto-taxes calculate cryptocurrency tax obligations with cost basis tracking, capital gains computation, and form 8949 generation. use when calculating crypto taxes, generating tax reports, comparing cost basis methods, or identifying taxable events. trigger with phrases like \"calculate crypto taxes\", \"generate tax report\", \"cost basis fifo\", \"capital gains\", \"form 8949\", or \"crypto taxable events\". allowed-tools: read, write, bash(crypto:tax-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -9125,7 +9125,7 @@
       "id": "finding-arbitrage-opportunities",
       "slug": "finding-arbitrage-opportunities",
       "name": "finding-arbitrage-opportunities",
-      "description": "Detect profitable arbitrage opportunities across exchanges and DEXs in real-time. Use when discovering profitable arbitrage across exchanges. Trigger with phrases like \"find arbitrage\", \"scan for arb opportunities\", or \"check arbitrage\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:arbitrage-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Detect profitable arbitrage opportunities across CEX, DEX, and cross-chain markets in real-time. Use when scanning for price spreads, finding arbitrage paths, comparing exchange prices, or analyzing triangular arbitrage opportunities. Trigger with phrases like \"find arbitrage\", \"scan for arb\", \"price spread\", \"exchange arbitrage\", \"triangular arb\", \"DEX price difference\", or \"cross-exchange opportunity\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:arbitrage-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -9133,7 +9133,7 @@
         "name": "arbitrage-opportunity-finder",
         "category": "crypto"
       },
-      "searchText": "finding-arbitrage-opportunities detect profitable arbitrage opportunities across exchanges and dexs in real-time. use when discovering profitable arbitrage across exchanges. trigger with phrases like \"find arbitrage\", \"scan for arb opportunities\", or \"check arbitrage\". allowed-tools: read, write, edit, grep, glob, bash(crypto:arbitrage-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "finding-arbitrage-opportunities detect profitable arbitrage opportunities across cex, dex, and cross-chain markets in real-time. use when scanning for price spreads, finding arbitrage paths, comparing exchange prices, or analyzing triangular arbitrage opportunities. trigger with phrases like \"find arbitrage\", \"scan for arb\", \"price spread\", \"exchange arbitrage\", \"triangular arb\", \"dex price difference\", or \"cross-exchange opportunity\". allowed-tools: read, write, edit, grep, glob, bash(crypto:arbitrage-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -9884,7 +9884,7 @@
       "id": "generating-trading-signals",
       "slug": "generating-trading-signals",
       "name": "generating-trading-signals",
-      "description": "Generate trading signals using technical indicators and on-chain metrics. Use when receiving trading signals and alerts. Trigger with phrases like \"get trading signals\", \"check indicators\", or \"analyze signals\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:signals-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Generate trading signals using technical indicators (RSI, MACD, Bollinger Bands, etc.). Combines multiple indicators into composite signals with confidence scores. Use when analyzing assets for trading opportunities or checking technical indicators. Trigger with phrases like \"get trading signals\", \"check indicators\", \"analyze for entry\", \"scan for opportunities\", \"generate buy/sell signals\", or \"technical analysis\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -9892,7 +9892,7 @@
         "name": "crypto-signal-generator",
         "category": "crypto"
       },
-      "searchText": "generating-trading-signals generate trading signals using technical indicators and on-chain metrics. use when receiving trading signals and alerts. trigger with phrases like \"get trading signals\", \"check indicators\", or \"analyze signals\". allowed-tools: read, write, edit, grep, glob, bash(crypto:signals-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "generating-trading-signals generate trading signals using technical indicators (rsi, macd, bollinger bands, etc.). combines multiple indicators into composite signals with confidence scores. use when analyzing assets for trading opportunities or checking technical indicators. trigger with phrases like \"get trading signals\", \"check indicators\", \"analyze for entry\", \"scan for opportunities\", \"generate buy/sell signals\", or \"technical analysis\". allowed-tools: read, write, edit, grep, glob, bash(python:*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -12217,7 +12217,7 @@
       "id": "monitoring-cross-chain-bridges",
       "slug": "monitoring-cross-chain-bridges",
       "name": "monitoring-cross-chain-bridges",
-      "description": "Monitor cross-chain bridge security, liquidity, and transaction status across networks. Use when monitoring cross-chain asset transfers. Trigger with phrases like \"monitor bridges\", \"check cross-chain\", or \"track bridge transfers\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:bridge-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Monitor cross-chain bridge TVL, volume, fees, and transaction status across networks. Use when researching bridges, comparing routes, or tracking bridge transactions. Trigger with phrases like \"monitor bridges\", \"compare bridge fees\", \"track bridge tx\", \"bridge TVL\", or \"cross-chain transfer status\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python*bridge_monitor*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12225,7 +12225,7 @@
         "name": "cross-chain-bridge-monitor",
         "category": "crypto"
       },
-      "searchText": "monitoring-cross-chain-bridges monitor cross-chain bridge security, liquidity, and transaction status across networks. use when monitoring cross-chain asset transfers. trigger with phrases like \"monitor bridges\", \"check cross-chain\", or \"track bridge transfers\". allowed-tools: read, write, edit, grep, glob, bash(crypto:bridge-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "monitoring-cross-chain-bridges monitor cross-chain bridge tvl, volume, fees, and transaction status across networks. use when researching bridges, comparing routes, or tracking bridge transactions. trigger with phrases like \"monitor bridges\", \"compare bridge fees\", \"track bridge tx\", \"bridge tvl\", or \"cross-chain transfer status\". allowed-tools: read, write, edit, grep, glob, bash(python*bridge_monitor*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -12284,7 +12284,7 @@
       "id": "monitoring-whale-activity",
       "slug": "monitoring-whale-activity",
       "name": "monitoring-whale-activity",
-      "description": "Track large crypto transactions and whale wallet movements across blockchains. Use when tracking large holder movements. Trigger with phrases like \"track whales\", \"monitor large transfers\", or \"check whale activity\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:whale-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Track large cryptocurrency transactions and whale wallet movements in real-time. Use when tracking large holder movements, exchange flows, or wallet activity. Trigger with phrases like \"track whales\", \"monitor large transfers\", \"check whale activity\", \"exchange inflows\", or \"watch wallet\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python*whale*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12292,7 +12292,7 @@
         "name": "whale-alert-monitor",
         "category": "crypto"
       },
-      "searchText": "monitoring-whale-activity track large crypto transactions and whale wallet movements across blockchains. use when tracking large holder movements. trigger with phrases like \"track whales\", \"monitor large transfers\", or \"check whale activity\". allowed-tools: read, write, edit, grep, glob, bash(crypto:whale-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "monitoring-whale-activity track large cryptocurrency transactions and whale wallet movements in real-time. use when tracking large holder movements, exchange flows, or wallet activity. trigger with phrases like \"track whales\", \"monitor large transfers\", \"check whale activity\", \"exchange inflows\", or \"watch wallet\". allowed-tools: read, write, edit, grep, glob, bash(python*whale*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -12389,7 +12389,7 @@
       "id": "optimizing-defi-yields",
       "slug": "optimizing-defi-yields",
       "name": "optimizing-defi-yields",
-      "description": "Execute find and compare DeFi yield opportunities across protocols with APY calculations. Use when finding optimal DeFi yield opportunities. Trigger with phrases like \"find yield\", \"optimize returns\", or \"compare APY\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:yield-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Find and compare DeFi yield opportunities across protocols with APY calculations, risk assessment, and optimization recommendations. Use when searching for yield farming opportunities, comparing DeFi protocols, or analyzing APY/APR rates. Trigger with phrases like \"find DeFi yields\", \"compare APY\", \"best yield farming\", \"optimize DeFi returns\", \"stablecoin yields\", or \"liquidity pool rates\". allowed-tools: Read, Write, Bash(crypto:yield-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12397,14 +12397,14 @@
         "name": "defi-yield-optimizer",
         "category": "crypto"
       },
-      "searchText": "optimizing-defi-yields execute find and compare defi yield opportunities across protocols with apy calculations. use when finding optimal defi yield opportunities. trigger with phrases like \"find yield\", \"optimize returns\", or \"compare apy\". allowed-tools: read, write, edit, grep, glob, bash(crypto:yield-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "optimizing-defi-yields find and compare defi yield opportunities across protocols with apy calculations, risk assessment, and optimization recommendations. use when searching for yield farming opportunities, comparing defi protocols, or analyzing apy/apr rates. trigger with phrases like \"find defi yields\", \"compare apy\", \"best yield farming\", \"optimize defi returns\", \"stablecoin yields\", or \"liquidity pool rates\". allowed-tools: read, write, bash(crypto:yield-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
       "id": "optimizing-gas-fees",
       "slug": "optimizing-gas-fees",
       "name": "optimizing-gas-fees",
-      "description": "Execute predict optimal gas prices and transaction timing to minimize blockchain transaction costs. Use when optimizing blockchain transaction costs. Trigger with phrases like \"optimize gas\", \"check gas prices\", or \"minimize fees\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:gas-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Optimize blockchain gas costs by analyzing prices, patterns, and timing. Use when checking gas prices, estimating costs, or finding optimal windows. Trigger with phrases like \"gas prices\", \"optimize gas\", \"transaction cost\", \"when to transact\". allowed-tools: Read, Bash(python3 *) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12412,7 +12412,7 @@
         "name": "gas-fee-optimizer",
         "category": "crypto"
       },
-      "searchText": "optimizing-gas-fees execute predict optimal gas prices and transaction timing to minimize blockchain transaction costs. use when optimizing blockchain transaction costs. trigger with phrases like \"optimize gas\", \"check gas prices\", or \"minimize fees\". allowed-tools: read, write, edit, grep, glob, bash(crypto:gas-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "optimizing-gas-fees optimize blockchain gas costs by analyzing prices, patterns, and timing. use when checking gas prices, estimating costs, or finding optimal windows. trigger with phrases like \"gas prices\", \"optimize gas\", \"transaction cost\", \"when to transact\". allowed-tools: read, bash(python3 *) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -12449,7 +12449,7 @@
       "id": "optimizing-staking-rewards",
       "slug": "optimizing-staking-rewards",
       "name": "optimizing-staking-rewards",
-      "description": "Execute compare staking rewards across validators and networks with ROI calculations. Use when optimizing proof-of-stake rewards. Trigger with phrases like \"optimize staking\", \"compare validators\", or \"calculate rewards\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:staking-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Compare and optimize staking rewards across validators, protocols, and blockchains with risk assessment. Use when analyzing staking opportunities, comparing validators, calculating staking rewards, or optimizing PoS yields. Trigger with phrases like \"optimize staking\", \"compare staking\", \"best staking APY\", \"liquid staking\", \"validator comparison\", \"staking rewards\", or \"ETH staking options\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:staking-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12457,7 +12457,7 @@
         "name": "staking-rewards-optimizer",
         "category": "crypto"
       },
-      "searchText": "optimizing-staking-rewards execute compare staking rewards across validators and networks with roi calculations. use when optimizing proof-of-stake rewards. trigger with phrases like \"optimize staking\", \"compare validators\", or \"calculate rewards\". allowed-tools: read, write, edit, grep, glob, bash(crypto:staking-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "optimizing-staking-rewards compare and optimize staking rewards across validators, protocols, and blockchains with risk assessment. use when analyzing staking opportunities, comparing validators, calculating staking rewards, or optimizing pos yields. trigger with phrases like \"optimize staking\", \"compare staking\", \"best staking apy\", \"liquid staking\", \"validator comparison\", \"staking rewards\", or \"eth staking options\". allowed-tools: read, write, edit, grep, glob, bash(crypto:staking-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -12789,7 +12789,7 @@
       "id": "routing-dex-trades",
       "slug": "routing-dex-trades",
       "name": "routing-dex-trades",
-      "description": "Optimize trade routing across multiple DEXs to find optimal prices and minimize slippage. Use when routing trades for best execution. Trigger with phrases like \"find best price\", \"route trade\", or \"check DEX prices\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:dex-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Route trades across multiple DEXs to find optimal prices with minimal slippage and gas costs. Use when comparing DEX prices, finding optimal swap routes, analyzing price impact, splitting large orders, or assessing MEV risk. Trigger with phrases like \"find best swap\", \"compare DEX prices\", \"route trade\", \"optimal swap route\", \"split order\", \"DEX aggregator\", \"check slippage\", or \"MEV protection\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:dex-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -12797,7 +12797,7 @@
         "name": "dex-aggregator-router",
         "category": "crypto"
       },
-      "searchText": "routing-dex-trades optimize trade routing across multiple dexs to find optimal prices and minimize slippage. use when routing trades for best execution. trigger with phrases like \"find best price\", \"route trade\", or \"check dex prices\". allowed-tools: read, write, edit, grep, glob, bash(crypto:dex-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "routing-dex-trades route trades across multiple dexs to find optimal prices with minimal slippage and gas costs. use when comparing dex prices, finding optimal swap routes, analyzing price impact, splitting large orders, or assessing mev risk. trigger with phrases like \"find best swap\", \"compare dex prices\", \"route trade\", \"optimal swap route\", \"split order\", \"dex aggregator\", \"check slippage\", or \"mev protection\". allowed-tools: read, write, edit, grep, glob, bash(crypto:dex-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -13120,7 +13120,7 @@
       "id": "scanning-market-movers",
       "slug": "scanning-market-movers",
       "name": "scanning-market-movers",
-      "description": "Detect significant price movements and unusual volume across crypto markets. Use when tracking significant price movements. Trigger with phrases like \"scan market movers\", \"check biggest gainers\", or \"find pumps\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:movers-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Detect significant price movements and unusual volume across crypto markets. Calculates significance scores combining price change, volume ratio, and market cap. Use when tracking market movers, finding gainers/losers, or detecting volume spikes. Trigger with phrases like \"scan market movers\", \"top gainers\", \"biggest losers\", \"volume spikes\", \"what's moving\", \"find pumps\", or \"market scan\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13128,7 +13128,7 @@
         "name": "market-movers-scanner",
         "category": "crypto"
       },
-      "searchText": "scanning-market-movers detect significant price movements and unusual volume across crypto markets. use when tracking significant price movements. trigger with phrases like \"scan market movers\", \"check biggest gainers\", or \"find pumps\". allowed-tools: read, write, edit, grep, glob, bash(crypto:movers-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "scanning-market-movers detect significant price movements and unusual volume across crypto markets. calculates significance scores combining price change, volume ratio, and market cap. use when tracking market movers, finding gainers/losers, or detecting volume spikes. trigger with phrases like \"scan market movers\", \"top gainers\", \"biggest losers\", \"volume spikes\", \"what's moving\", \"find pumps\", or \"market scan\". allowed-tools: read, write, edit, grep, glob, bash(python:*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -13203,7 +13203,7 @@
       "id": "simulating-flash-loans",
       "slug": "simulating-flash-loans",
       "name": "simulating-flash-loans",
-      "description": "Execute simulate flash loan arbitrage strategies and profitability across DeFi protocols. Use when performing crypto analysis. Trigger with phrases like \"analyze crypto\", \"check blockchain\", or \"monitor market\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:flashloan-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Simulate flash loan strategies with profitability calculations and risk assessment across Aave, dYdX, and Balancer. Use when simulating flash loans, analyzing arbitrage profitability, evaluating liquidation opportunities, or comparing flash loan providers. Trigger with phrases like \"simulate flash loan\", \"flash loan arbitrage\", \"liquidation profit\", \"compare Aave dYdX\", \"flash loan strategy\", or \"DeFi arbitrage simulation\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:flashloan-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13211,7 +13211,7 @@
         "name": "flash-loan-simulator",
         "category": "crypto"
       },
-      "searchText": "simulating-flash-loans execute simulate flash loan arbitrage strategies and profitability across defi protocols. use when performing crypto analysis. trigger with phrases like \"analyze crypto\", \"check blockchain\", or \"monitor market\". allowed-tools: read, write, edit, grep, glob, bash(crypto:flashloan-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "simulating-flash-loans simulate flash loan strategies with profitability calculations and risk assessment across aave, dydx, and balancer. use when simulating flash loans, analyzing arbitrage profitability, evaluating liquidation opportunities, or comparing flash loan providers. trigger with phrases like \"simulate flash loan\", \"flash loan arbitrage\", \"liquidation profit\", \"compare aave dydx\", \"flash loan strategy\", or \"defi arbitrage simulation\". allowed-tools: read, write, edit, grep, glob, bash(crypto:flashloan-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -13826,7 +13826,7 @@
       "id": "tracking-crypto-derivatives",
       "slug": "tracking-crypto-derivatives",
       "name": "tracking-crypto-derivatives",
-      "description": "Track futures, options, and perpetual swap positions with P&L calculations. Use when tracking futures and options positions. Trigger with phrases like \"track derivatives\", \"check futures positions\", or \"analyze perps\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:derivatives-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Track cryptocurrency futures, options, and perpetual swaps with funding rates, open interest, liquidations, and comprehensive derivatives market analysis. Use when monitoring derivatives markets, analyzing funding rates, tracking open interest, finding liquidation levels, or researching options flow. Trigger with phrases like \"funding rate\", \"open interest\", \"perpetual swap\", \"futures basis\", \"liquidation levels\", \"options flow\", \"put call ratio\", \"derivatives analysis\", or \"BTC perps\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:derivatives-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13834,14 +13834,14 @@
         "name": "crypto-derivatives-tracker",
         "category": "crypto"
       },
-      "searchText": "tracking-crypto-derivatives track futures, options, and perpetual swap positions with p&l calculations. use when tracking futures and options positions. trigger with phrases like \"track derivatives\", \"check futures positions\", or \"analyze perps\". allowed-tools: read, write, edit, grep, glob, bash(crypto:derivatives-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "tracking-crypto-derivatives track cryptocurrency futures, options, and perpetual swaps with funding rates, open interest, liquidations, and comprehensive derivatives market analysis. use when monitoring derivatives markets, analyzing funding rates, tracking open interest, finding liquidation levels, or researching options flow. trigger with phrases like \"funding rate\", \"open interest\", \"perpetual swap\", \"futures basis\", \"liquidation levels\", \"options flow\", \"put call ratio\", \"derivatives analysis\", or \"btc perps\". allowed-tools: read, write, edit, grep, glob, bash(crypto:derivatives-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
       "id": "tracking-crypto-portfolio",
       "slug": "tracking-crypto-portfolio",
       "name": "tracking-crypto-portfolio",
-      "description": "Track multi-chain crypto portfolio with real-time valuations and performance metrics. Use when managing multi-chain crypto holdings. Trigger with phrases like \"track my portfolio\", \"check holdings\", or \"analyze positions\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:portfolio-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Track cryptocurrency portfolio with real-time valuations, allocation analysis, and P&L tracking. Use when checking portfolio value, viewing holdings breakdown, analyzing allocations, or exporting portfolio data. Trigger with phrases like \"show my portfolio\", \"check crypto holdings\", \"portfolio allocation\", \"track my crypto\", or \"export portfolio\". allowed-tools: Read, Write, Bash(crypto:portfolio-*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13849,14 +13849,14 @@
         "name": "crypto-portfolio-tracker",
         "category": "crypto"
       },
-      "searchText": "tracking-crypto-portfolio track multi-chain crypto portfolio with real-time valuations and performance metrics. use when managing multi-chain crypto holdings. trigger with phrases like \"track my portfolio\", \"check holdings\", or \"analyze positions\". allowed-tools: read, write, edit, grep, glob, bash(crypto:portfolio-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "tracking-crypto-portfolio track cryptocurrency portfolio with real-time valuations, allocation analysis, and p&l tracking. use when checking portfolio value, viewing holdings breakdown, analyzing allocations, or exporting portfolio data. trigger with phrases like \"show my portfolio\", \"check crypto holdings\", \"portfolio allocation\", \"track my crypto\", or \"export portfolio\". allowed-tools: read, write, bash(crypto:portfolio-*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
       "id": "tracking-crypto-prices",
       "slug": "tracking-crypto-prices",
       "name": "tracking-crypto-prices",
-      "description": "Track real-time cryptocurrency prices across exchanges with historical data and alerts. Use when monitoring real-time cryptocurrency prices. Trigger with phrases like \"check price\", \"track prices\", or \"get price alert\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:price-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Track real-time cryptocurrency prices across exchanges with historical data and alerts. Provides price data infrastructure for dependent skills (portfolio, tax, DeFi, arbitrage). Use when checking crypto prices, monitoring markets, or fetching historical price data. Trigger with phrases like \"check price\", \"BTC price\", \"crypto prices\", \"price history\", \"get quote for\", \"what's ETH trading at\", \"show me top coins\", or \"track my watchlist\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python:*) version: 2.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13864,7 +13864,7 @@
         "name": "market-price-tracker",
         "category": "crypto"
       },
-      "searchText": "tracking-crypto-prices track real-time cryptocurrency prices across exchanges with historical data and alerts. use when monitoring real-time cryptocurrency prices. trigger with phrases like \"check price\", \"track prices\", or \"get price alert\". allowed-tools: read, write, edit, grep, glob, bash(crypto:price-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "tracking-crypto-prices track real-time cryptocurrency prices across exchanges with historical data and alerts. provides price data infrastructure for dependent skills (portfolio, tax, defi, arbitrage). use when checking crypto prices, monitoring markets, or fetching historical price data. trigger with phrases like \"check price\", \"btc price\", \"crypto prices\", \"price history\", \"get quote for\", \"what's eth trading at\", \"show me top coins\", or \"track my watchlist\". allowed-tools: read, write, edit, grep, glob, bash(python:*) version: 2.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",
@@ -13947,7 +13947,7 @@
       "id": "tracking-token-launches",
       "slug": "tracking-token-launches",
       "name": "tracking-token-launches",
-      "description": "Monitor new token launches, IDOs, and fair launches with contract verification. Use when discovering new token launches. Trigger with phrases like \"track launches\", \"find new tokens\", or \"monitor IDOs\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(crypto:launch-*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
+      "description": "Track new token launches across DEXes with risk analysis and contract verification. Use when discovering new token launches, monitoring IDOs, or analyzing token contracts. Trigger with phrases like \"track launches\", \"find new tokens\", \"new pairs on uniswap\", \"token risk analysis\", or \"monitor IDOs\". allowed-tools: Read, Write, Edit, Grep, Glob, Bash(python*launch_tracker*) version: 1.0.0 author: Jeremy Longshore <jeremy@intentsolutions.io> license: MIT",
       "category": "crypto",
       "allowedTools": [],
       "version": "1.0.0",
@@ -13955,7 +13955,7 @@
         "name": "token-launch-tracker",
         "category": "crypto"
       },
-      "searchText": "tracking-token-launches monitor new token launches, idos, and fair launches with contract verification. use when discovering new token launches. trigger with phrases like \"track launches\", \"find new tokens\", or \"monitor idos\". allowed-tools: read, write, edit, grep, glob, bash(crypto:launch-*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
+      "searchText": "tracking-token-launches track new token launches across dexes with risk analysis and contract verification. use when discovering new token launches, monitoring idos, or analyzing token contracts. trigger with phrases like \"track launches\", \"find new tokens\", \"new pairs on uniswap\", \"token risk analysis\", or \"monitor idos\". allowed-tools: read, write, edit, grep, glob, bash(python*launch_tracker*) version: 1.0.0 author: jeremy longshore <jeremy@intentsolutions.io> license: mit crypto "
     },
     {
       "type": "skill",

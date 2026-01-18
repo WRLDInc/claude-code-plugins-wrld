@@ -5,6 +5,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.11.0] - 2026-01-18
+
+### Added
+- 8 new crypto plugin skills with full PRD/ARD documentation and Python implementations:
+  - **Blockchain & On-Chain**: blockchain-explorer-cli, on-chain-analytics, mempool-analyzer, whale-alert-monitor, gas-fee-optimizer
+  - **NFT & Tokens**: nft-rarity-analyzer, token-launch-tracker
+  - **Infrastructure**: cross-chain-bridge-monitor, wallet-security-auditor
+- Firebase Hosting deployment workflow for claudecodeplugins.io
+- Firebase Analytics integration with measurement ID tracking
+- Google Secret Manager integration for secure Firebase config
+
+### Fixed
+- Gemini code review feedback for all new crypto skills:
+  - Timezone-naive datetime operations (now UTC)
+  - Empty except clauses with explanatory comments
+  - Unused import cleanup
+  - Config loading from settings.yaml
+  - Mock data fallback with explicit --demo flag
+
+### Infrastructure
+- GitHub Actions workflow for Firebase Hosting deployment
+- Workload Identity Federation for keyless GCP authentication
+- All crypto skills follow nixtla enterprise PRD/ARD standard
+
+### Metrics
+- New crypto skills: 8 (completing Batch 5 & 6)
+- Commits since v4.10.0: 29
+- PRs merged: 10
+- Total files changed: 221
+- Lines changed: +23,839 / -19,891
+
 ## [4.10.0] - 2026-01-15
 
 ### Added
