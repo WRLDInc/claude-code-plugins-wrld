@@ -11,17 +11,20 @@ License: MIT
 
 import math
 from dataclasses import dataclass
-from typing import Dict, List, Any, Tuple
+from typing import List, Any, Tuple
 from enum import Enum
 
 
 class RarityAlgorithm(Enum):
-    """Available rarity scoring algorithms."""
-    STATISTICAL = "statistical"  # 1 / frequency
-    RARITY_SCORE = "rarity_score"  # Sum of 1/frequency
+    """Available rarity scoring algorithms.
+
+    Note: Normalization (0-100 scale) is a post-processing step applied
+    via normalize_scores(), not a primary algorithm.
+    """
+    STATISTICAL = "statistical"  # Sum of 1/frequency (same as RARITY_SCORE)
+    RARITY_SCORE = "rarity_score"  # Sum of 1/frequency for all traits
     AVERAGE = "average"  # Mean of trait rarities
     INFORMATION = "information"  # Entropy-based (-log2)
-    NORMALIZED = "normalized"  # 0-100 scale
 
 
 @dataclass

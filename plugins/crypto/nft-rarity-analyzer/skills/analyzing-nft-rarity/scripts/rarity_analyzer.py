@@ -11,7 +11,6 @@ License: MIT
 
 import argparse
 import sys
-from typing import Optional
 
 from metadata_fetcher import MetadataFetcher
 from trait_parser import TraitParser
@@ -112,7 +111,8 @@ def cmd_token(args):
 
     if not token_rarity:
         print(f"Error: Token #{args.token_id} not found in fetched data.")
-        print(f"Fetched tokens: {min(t.token_id for t in collection.tokens)} - {max(t.token_id for t in collection.tokens)}")
+        if collection.tokens:
+            print(f"Fetched tokens: {min(t.token_id for t in collection.tokens)} - {max(t.token_id for t in collection.tokens)}")
         sys.exit(1)
 
     # Output

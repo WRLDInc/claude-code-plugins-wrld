@@ -9,7 +9,7 @@
 ```
 Metadata Collection → Trait Parsing → Rarity Calculation → Ranking → Display
         ↓                   ↓                ↓                ↓          ↓
-   OpenSea/RPC         Normalize        Statistical       Sort by     Table/JSON
+   OpenSea/ETH RPC     Normalize        Statistical       Sort by     Table/JSON
                        Attributes        Analysis         Score
 ```
 
@@ -124,15 +124,12 @@ class Trait:
 
 ## Rarity Scoring Formulas
 
-### Statistical Rarity (Per Trait)
-```
-rarity = 1 / (trait_count / total_supply)
-```
-
-### Rarity Score (Sum Method)
+### Rarity Score / Statistical Rarity
 ```
 score = Σ (1 / trait_frequency) for all traits
 ```
+Note: Both `statistical` and `rarity_score` algorithms use this same formula.
+They are kept as separate enum values for backward compatibility.
 
 ### Average Rarity
 ```
@@ -144,7 +141,10 @@ score = Σ (trait_rarity) / trait_count
 score = Σ (-log2(trait_frequency)) for all traits
 ```
 
-### Normalized Rarity (0-100 scale)
+## Score Normalization
+
+Normalization is a post-processing step applied after calculating scores
+using any primary algorithm. It scales scores to a 0-100 range:
 ```
 normalized = (score - min_score) / (max_score - min_score) * 100
 ```

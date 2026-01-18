@@ -98,7 +98,7 @@ class MetadataFetcher:
                 if time.time() - data.get("timestamp", 0) < max_age:
                     return data.get("data")
             except (json.JSONDecodeError, IOError):
-                pass
+                pass  # Cache file corrupted or missing - fetch fresh data
         return None
 
     def _save_cache(self, key: str, data: Any) -> None:
@@ -110,7 +110,7 @@ class MetadataFetcher:
                 "data": data
             }, indent=2))
         except IOError:
-            pass
+            pass  # Non-critical - cache save failed, will refetch next time
 
     def _resolve_ipfs(self, url: str) -> str:
         """Convert IPFS URL to HTTP gateway URL."""
@@ -264,11 +264,17 @@ class MetadataFetcher:
             except (ValueError, KeyError):
                 continue
 
+        # Note: If OpenSea doesn't provide total_supply, we fallback to len(tokens).
+        # This may underestimate the actual supply if limit parameter restricted fetching.
+        # For accurate rarity calculations on large collections, ensure you fetch enough tokens.
+        reported_supply = col.get("total_supply")
+        total_supply = int(reported_supply) if reported_supply else len(tokens)
+
         return CollectionData(
             name=col.get("name", "Unknown"),
             slug=col.get("collection", "unknown"),
             contract_address=col.get("contracts", [{}])[0].get("address", "") if col.get("contracts") else "",
-            total_supply=int(col.get("total_supply", len(tokens))),
+            total_supply=total_supply,
             description=col.get("description", ""),
             image_url=col.get("image_url", ""),
             tokens=tokens,

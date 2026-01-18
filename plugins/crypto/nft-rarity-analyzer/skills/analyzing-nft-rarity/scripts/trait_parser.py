@@ -10,7 +10,7 @@ License: MIT
 """
 
 from dataclasses import dataclass
-from typing import Dict, List, Set, Optional, Any
+from typing import Dict, List, Set, Any
 from collections import defaultdict
 
 
@@ -158,17 +158,13 @@ class TraitParser:
             token_id = token.token_id
             parsed_traits = []
 
-            # Convert Trait objects to dicts for parsing
-            attr_list = [
-                {"trait_type": t.trait_type, "value": t.value, "display_type": t.display_type}
-                for t in token.attributes
-            ]
+            # Iterate directly over Trait objects (no conversion needed)
+            for attr in token.attributes:
+                trait_type = self.normalize_trait_type(attr.trait_type)
+                value = self.normalize_value(attr.value)
 
-            for attr in attr_list:
-                trait_type = self.normalize_trait_type(attr.get("trait_type", ""))
-                value = self.normalize_value(attr.get("value"))
-
-                if attr.get("display_type") in ("number", "boost_number", "boost_percentage"):
+                # Skip display_type traits like "number" or "boost_percentage"
+                if attr.display_type in ("number", "boost_number", "boost_percentage"):
                     continue
 
                 trait_counts[trait_type][value] += 1
