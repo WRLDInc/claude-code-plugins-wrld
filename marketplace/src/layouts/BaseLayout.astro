@@ -44,32 +44,27 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
     </script>
 
     <!-- Firebase Analytics -->
-    <script type="module" is:inline>
+    <script type="module" is:inline define:vars={{ firebaseConfigJson: import.meta.env.PUBLIC_FIREBASE_CONFIG || '{}' }}>
       import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js';
       import { getAnalytics, logEvent } from 'https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics.js';
 
-      const firebaseConfig = {
-        apiKey: "AIzaSyAUbgBuoMCtcjEdRcYzqu08kuVFVDeiHsM",
-        authDomain: "claude-code-plugins-io.firebaseapp.com",
-        projectId: "claude-code-plugins-io",
-        storageBucket: "claude-code-plugins-io.firebasestorage.app",
-        messagingSenderId: "348333126402",
-        appId: "1:348333126402:web:d6648125f161de167b881b",
-        measurementId: "G-ST3K05ETCF"
-      };
+      // Config injected from Secret Manager at build time
+      const firebaseConfig = JSON.parse(firebaseConfigJson);
 
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
+      if (firebaseConfig.apiKey) {
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
 
-      // Log page view
-      logEvent(analytics, 'page_view', {
-        page_path: window.location.pathname,
-        page_title: document.title
-      });
+        // Log page view
+        logEvent(analytics, 'page_view', {
+          page_path: window.location.pathname,
+          page_title: document.title
+        });
 
-      // Make analytics available globally for custom events
-      window.firebaseAnalytics = analytics;
-      window.logFirebaseEvent = (eventName, params) => logEvent(analytics, eventName, params);
+        // Make analytics available globally for custom events
+        window.firebaseAnalytics = analytics;
+        window.logFirebaseEvent = (eventName, params) => logEvent(analytics, eventName, params);
+      }
     </script>
 
     <!-- Fonts -->
