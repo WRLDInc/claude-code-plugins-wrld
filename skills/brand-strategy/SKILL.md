@@ -80,7 +80,7 @@ Translate strategy into language.
 - What emotional territory does the brand own?
 - What words should never be used?
 
-**Output:** 
+**Output:** A messaging framework including:
 - Core message (1 sentence)
 - Supporting messages (3-5 proof points)
 - Tone attributes (3-5 adjectives with definitions)
