@@ -96,6 +96,7 @@ Valid tools: `Read`, `Write`, `Edit`, `Bash`, `Glob`, `Grep`, `WebFetch`, `WebSe
 - **Hooks:** Use `${CLAUDE_PLUGIN_ROOT}` for portability
 - **Scripts:** All `.sh` files must be `chmod +x`
 - **Model IDs in skills:** Use `sonnet` or `haiku` (not `opus`)
+- **README Contributors:** Newest contributors go at the TOP of the list
 
 ## Key Identifiers
 
