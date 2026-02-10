@@ -23,7 +23,7 @@
   "author": "Intent Solutions IO",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.25.2",
+    "@modelcontextprotocol/sdk": "^1.26.0",
     "glob": "^13.0.0",
     "simple-git": "^3.30.0",
     "zod": "^4.3.5"
