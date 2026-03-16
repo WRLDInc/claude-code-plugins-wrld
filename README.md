@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-4.17.0-brightgreen)](000-docs/247-OD-CHNG-changelog.md)
 [![CLI](https://img.shields.io/badge/CLI-ccpi-blueviolet?logo=npm)](https://www.npmjs.com/package/@intentsolutionsio/ccpi)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-1900%2B-orange)](000-docs/247-OD-CHNG-changelog.md)
-[![Plugins](https://img.shields.io/badge/Total%20Plugins-347-blue)](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
+[![Plugins](https://img.shields.io/badge/Total%20Plugins-343-blue)](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
 [![2026 Schema](https://img.shields.io/badge/2026%20Schema-Compliant-success?logo=checkmarx)](tutorials/skills/05-skill-validation.ipynb)
 [![Tool Permissions](https://img.shields.io/badge/Tool%20Permissions-Secured-blueviolet?logo=shield)](tutorials/skills/02-skill-anatomy.ipynb)
 [![Interactive Tutorials](https://img.shields.io/badge/Tutorials-11%20Notebooks-yellow?logo=jupyter)](000-docs/185-MS-INDX-tutorials.md)
