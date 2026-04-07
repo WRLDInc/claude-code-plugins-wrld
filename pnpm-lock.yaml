@@ -9582,7 +9582,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.8
+      postcss: 8.5.6
       rollup: 4.60.1
       tinyglobby: 0.2.15
     optionalDependencies:
@@ -9598,7 +9598,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.8
+      postcss: 8.5.6
       rollup: 4.60.1
       tinyglobby: 0.2.15
     optionalDependencies:
@@ -9614,7 +9614,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.8
+      postcss: 8.5.6
       rollup: 4.60.1
       tinyglobby: 0.2.15
     optionalDependencies:
