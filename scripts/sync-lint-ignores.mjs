@@ -80,7 +80,7 @@ const FIX_CMD = 'node scripts/sync-lint-ignores.mjs';
 // ── sources.yaml include-anchoring ratchet ─────────────────────────────────
 if (CHECK_ANCHORING) {
   // Lazy import: js-yaml is only needed for this mode (see header).
-  const { default: yaml } = await import('js-yaml');
+  const yaml = await import('js-yaml');
   const sourcesAbs = path.join(ROOT, 'sources.yaml');
   const headSources = yaml.load(fs.readFileSync(sourcesAbs, 'utf8'))?.sources || [];
 

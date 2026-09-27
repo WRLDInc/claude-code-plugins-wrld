@@ -22,7 +22,7 @@ import {
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_ROOT = resolve(SCRIPT_DIR, '..');

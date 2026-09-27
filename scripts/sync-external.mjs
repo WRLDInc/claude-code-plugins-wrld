@@ -39,7 +39,7 @@ import path from 'path';
 import os from 'os';
 import { fileURLToPath } from 'url';
 import { execFileSync } from 'child_process';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import {
   computeFileDigest,
   loadLock,

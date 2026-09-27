@@ -4,7 +4,7 @@ import { mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 
 const names = ['check-links', 'check-issue-body-links', 'update-npm-stats'];
 const workflows = Object.fromEntries(
