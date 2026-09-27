@@ -25,7 +25,7 @@ import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import { parseTokenList } from './lib/tool-token-parser.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');

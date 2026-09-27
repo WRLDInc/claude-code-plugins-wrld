@@ -9,7 +9,7 @@
 import { createHash } from 'node:crypto';
 import { lstatSync, readFileSync, realpathSync } from 'node:fs';
 import { dirname, extname, isAbsolute, normalize, relative, resolve, sep } from 'node:path';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 
 import { canonicalDocumentLinks, inspectAuthorityMetadata } from './check-doc-authority.mjs';
 import { CORPUS_COHORTS, resolveCorpus } from './corpus-resolver.mjs';
